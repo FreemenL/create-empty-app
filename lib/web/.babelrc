@@ -1,0 +1,26 @@
+{
+  "presets": [
+    ["env", { "modules": false }],
+    "react",
+    "stage-0",
+    "stage-1"
+  ],
+  "plugins": [
+    ["import",{
+      "libraryName": "antd",
+      "libraryDirectory": "es", "style": true
+    }],
+    ["prismjs", {
+      "languages": ["markup","javascript","tsx","less","json","markdown","bash"],
+      "plugins": ["line-numbers","normalize-whitespace"],
+      "theme": "okaidia",
+      "css": true
+    }],
+    ["empty-import",{
+      "libraryName": "emptyd",
+    }],
+    "transform-runtime",
+    "syntax-dynamic-import",
+    "react-hot-loader/babel"
+  ]
+}

@@ -1,0 +1,23 @@
+@import '~styles/index.less';
+
+:global{
+    #content{
+        background: #fff;
+    }
+}
+.@{empty-prefix}-system-content{
+    min-height: 100%!important;
+    &-wrapper{
+      height: 600px;
+      overflow-y: auto;
+      overflow-x: visible;
+      background: #f0f2f5;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    &-footer{
+        text-align: center;
+        font-weight: 600;
+        color:#999
+    }
+}

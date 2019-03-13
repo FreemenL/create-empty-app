@@ -1,0 +1,76 @@
+@import '~styles/index.less';
+
+.@{empty-prefix}-page-container {
+    position: relative;
+    align-items: center;
+    background-color: rgb(118, 218, 255);
+    overflow: hidden;
+    height:calc(~'100vh-133px');
+
+    &:before, &:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        min-width: 300vw;
+        min-height: 300vw;
+        background-color: #fff;
+        animation-name: rotate;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    &:before {
+        bottom: 15vh;
+        border-radius: 45%;
+        animation-duration: 10s;
+    }
+
+    &:after {
+        bottom: 12vh;
+        opacity: .5;
+        border-radius: 47%;
+        animation-duration: 10s;
+    }
+    &-title{
+        position: absolute;
+        top:50px;
+        color: #333;
+        z-index: 10;
+        font-size: 8vw;
+        left:50%;
+        margin-left:-24vw;
+        text-shadow: 3px 3px 2px #999;
+    }
+    &-content{
+        position: absolute;
+        z-index: 10;
+        text-align: center;
+        width: 100%;
+        bottom: 33vh;
+        font-size: 20px;
+        line-height: 40px;
+        color: #314659;
+        &-nav{
+            margin-top:20px;
+            margin-left:-90px;
+            button{
+                margin-left:30px;
+            }
+        }
+    }
+    
+}
+
+@keyframes rotate {
+    0% {
+        transform: translate(-50%, 0) rotateZ(0deg);
+    }
+    50% {
+        transform: translate(-50%, -2%) rotateZ(180deg);
+    }
+    100% {
+        transform: translate(-50%, 0%) rotateZ(360deg);
+    }
+}
+
+
