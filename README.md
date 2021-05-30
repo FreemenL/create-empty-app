@@ -1,16 +1,16 @@
 <div align="center">
-  <h1>create-emptyd-app</h1>
+  <h1>create-empty-app</h1>
   <p>Quickly generate a web side or h5 project template for you</p>
 </div>
 
 <h2 align="center">Install</h2>
 
 ```bash
-  cnpm install create-emptyd-app -g
+  cnpm install create-empty-app -g
 ```
 
 ```bash
-  npm install create-emptyd-app -g
+  npm install create-empty-app -g
 ```
 
 This is a scaffold specifically developed for [emptyd-desgin](https://github.com/FreemenL/emptyd-admin-webpack)
@@ -18,14 +18,14 @@ This is a scaffold specifically developed for [emptyd-desgin](https://github.com
 
 <h2 align="center">Zero Config</h2>
 
-The `create-emptyd-app` works without configuration.  
+The `create-empty-app` works without configuration.  
 
 <h2 align="center">Usage</h2>
 
 ```bash
-  create-emptyd-app  myapp
+  create-empty-app  myapp
   // Generate the project template
-  create-emptyd-app -V
+  create-empty-app -V
   //Display version number
 ```
 >More functions under development...

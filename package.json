@@ -1,17 +1,17 @@
 {
-  "name": "create-emptyd-app",
+  "name": "create-empty-app",
   "version": "0.0.3",
   "keywords": [
     "react"
   ],
   "description": "Create emptyd apps with no build configuration.",
-  "repository": "freemenL/create-emptyd-app",
+  "repository": "freemenL/create-empty-app",
   "license": "MIT",
   "engines": {
     "node": ">=4"
   },
   "bugs": {
-    "url": "https://github.com/freemenL/create-emptyd-app/issues"
+    "url": "https://github.com/freemenL/create-empty-app/issues"
   },
   "files": [
     "index.js",
@@ -20,7 +20,7 @@
     "README.md"
   ],
   "bin": {
-    "create-emptyd-app": "./index.js"
+    "create-empty-app": "./index.js"
   },
   "dependencies": {
     "chalk": "1.1.3",
